@@ -1,4 +1,4 @@
-
+[
 # Aviral Pathak - Portfolio Website
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.2.25-black?style=flat-square&logo=next.js)](https://nextjs.org/)
@@ -223,3 +223,4 @@ This project is open source and available under the [MIT License](LICENSE).
 **"Empowering Lives Through Mindset, Habits & Innovation"**
 
 *Built with ❤️ by Aviral Pathak*
+](https://aviralweb.vercel.app/)
