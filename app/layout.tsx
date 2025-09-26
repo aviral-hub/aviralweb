@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Aviral Pathak | Mindset, Habits & Innovation",
   description:
     "Empowering Lives Through Mindset, Habits & Innovation - Personal website of Aviral Pathak, author and youth mentor",
-    generator: 'v0.dev'
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
