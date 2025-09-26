@@ -1,226 +1,156 @@
-[
-# Aviral Pathak - Portfolio Website
+# Hi there, I'm Aviral Pathak! 👋
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.2.25-black?style=flat-square&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=B.Tech+IT+Student;Published+Author;Marketing+Lead;Public+Speaker;Data+Enthusiast" alt="Typing SVG" />
+</div>
 
-> **B.Tech IT Student | Published Author | Marketing Lead | Public Speaker**
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aviral-hub&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/aviral-hub?label=Followers&style=social" alt="GitHub Followers" />
+</p>
 
-A modern, responsive portfolio website showcasing the journey of Aviral Pathak - a passionate student, published author, and campus leader from Nagpur, Maharashtra.
+## 🚀 About Me
 
-## 🚀 About Aviral
+I'm a passionate **B.Tech Information Technology** student at **GH Raisoni College of Engineering, Nagpur**, with a unique blend of technical skills and leadership experience. At just 21, I've published two books, led multiple student organizations, and developed practical solutions that make a difference.
 
-Currently pursuing B.Tech in Information Technology at GH Raisoni College of Engineering, Nagpur. At just 21, Aviral has:
+- 🎓 **Currently pursuing:** B.Tech IT (Expected 2026)
+- 📚 **Published Author:** 2 books on life skills and attention management
+- 🏆 **Leadership:** Marketing Lead at IEEE Computer Society GHRCE
+- 🎤 **Speaker:** Startup Spark, ELEVATE 2.0, Techotsav
+- 🌱 **Learning:** Advanced React, Data Science, and Cloud Technologies
+- 💡 **Passionate about:** Empowering students through technology and personal development
 
-- 📚 **Published 2 Books** on life skills and attention management
-- 🏆 **Led Multiple Organizations** including IEEE Computer Society and BITS Forum
-- 🎤 **Speaker** at various college events and startup forums
-- 💻 **Developed** data analysis tools using modern web technologies
+## 📖 My Publications
 
-## 📖 Publications
+### 📘 Practical Life Skills for Students (2024)
+*Published by Notion Press*
+> A comprehensive guide emphasizing essential life skills beyond academics to help students thrive in real-world situations.
 
-### 1. Practical Life Skills for Students (May 2024)
-- **Publisher:** Notion Press
-- **Focus:** Essential life skills beyond academics for real-world success
-- **Target Audience:** Students and young professionals
+### 📗 Why Can't You Pay Attention (2022)
+*Published by Notion Press*
+> Exploration of attention challenges in the digital age with practical strategies to overcome mental restlessness and improve focus.
 
-### 2. Why Can't You Pay Attention (January 2022)
-- **Publisher:** Notion Press
-- **Focus:** Attention challenges in the digital age with practical solutions
-- **Target Audience:** Anyone struggling with focus and mental restlessness
-
-## 🏢 Leadership Experience
-
-### Marketing Lead - IEEE Computer Society GHRCE
-*September 2023 - September 2024*
-- Established vibrant tech community within college
-- Organized technical events and workshops
-- Promoted IEEE activities and research opportunities
-
-### Social Media & Campaigning In-charge - BITS Forum
-*August 2023 - May 2024*
-- Managed multi-platform social media presence
-- Developed innovative marketing strategies
-- Increased student engagement significantly
-
-### Vice President - Faith Forum
-*November 2022 - August 2023*
-- Led collaboration and innovation initiatives
-- Facilitated first-year student integration
-- Directed meaningful projects and discussions
-
-## 💻 Technical Skills
+## 🛠️ Tech Stack
 
 ### Programming Languages
-- **C++** - Advanced level
-- **Java** - Intermediate to Advanced
-- **SQL** - Database management and queries
+<p align="left">
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
 
 ### Web Technologies
-- **HTML/CSS** - Responsive design and modern layouts
-- **React** - Component-based development
-- **Git** - Version control and collaboration
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+</p>
 
-### Tools & Frameworks
-- **Next.js** - Full-stack React framework
-- **Tailwind CSS** - Utility-first CSS framework
-- **Framer Motion** - Animation library
+### Database & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
+</p>
 
-## 🎯 Projects
+## 📊 GitHub Stats
 
-### Data Quality Analysis Tool
-- **Tech Stack:** React, JavaScript, HTML/CSS
-- **Features:** Dataset analysis, quality issue identification, cleaning suggestions
-- **Live Demo:** [datavtool.vercel.app](https://datavtool.vercel.app/)
-- **GitHub:** [github.com/aviral-hub/datavtool](https://github.com/aviral-hub/datavtool)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aviral-hub&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+</div>
 
-## 🏆 Achievements & Certifications
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aviral-hub&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
 
-### Awards
-- **Speaker for Startup Spark** - MBA Department Forum (November 2023)
-- **Event Lead, Education** - ELEVATE 2.0, IEEE CS GHRCE (September 2024)
-- **Event Lead, Education** - Techotsav, GHRCE (March 2025)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aviral-hub&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+</div>
 
-### Certifications
+## 🏆 Achievements & Leadership
+
+### 🎯 Leadership Roles
+- **Marketing Lead** - IEEE Computer Society GHRCE (2023-2024)
+- **Social Media & Campaigning In-charge** - BITS Forum (2023-2024)
+- **Vice President** - Faith Forum (2022-2023)
+
+### 🏅 Awards & Recognition
+- **Speaker** - Startup Spark, MBA Department Forum (2023)
+- **Event Lead** - ELEVATE 2.0, IEEE CS GHRCE (2024)
+- **Event Lead** - Techotsav, GHRCE (2025)
+
+### 📜 Certifications
 - **Space Science and Technology Awareness Training (START)** - ISRO
 - **SQL v/s NoSQL Course** - Scaler
 
-## 🎓 Education
+## 🚀 Featured Projects
 
-### B.Tech, Information Technology
-**GH Raisoni College of Engineering, Nagpur**
-*Expected Graduation: July 2026*
+### 📊 Data Quality Analysis Tool
+**Tech Stack:** React, JavaScript, HTML/CSS
+- Developed a comprehensive tool for analyzing datasets and identifying quality issues
+- Implemented intuitive UI for seamless data upload and analysis
+- Provides actionable suggestions for data cleaning and improvement
 
-### Class XII
-**Insight Junior College**
-*Completed: January 2022*
+**[🔗 Live Demo](https://datavtool.vercel.app/)** | **[📂 Repository](https://github.com/aviral-hub/datavtool)**
 
-### Class X
-**Montfort HR. Sec. School**
-*Completed: May 2020*
+### 🌐 Portfolio Website
+**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Framer Motion
+- Modern, responsive portfolio showcasing projects and achievements
+- Features smooth animations, dark/light mode, and interactive elements
+- Optimized for performance and accessibility
 
-## 🌟 Core Competencies
+## 📈 Contribution Graph
 
-### Leadership & Communication
-- Public Speaking & Presentations
-- Team Leadership & Management
-- Event Organization & Coordination
-- Social Media Marketing & Strategy
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aviral-hub&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+</div>
 
-### Personal Development
-- Goal-oriented Mindset
-- Multitasking & Organization
-- Student Mentoring & Guidance
-- Innovation & Creative Thinking
+## 🎯 Current Focus
 
-## 🛠️ Website Features
+- 🔭 Working on advanced data analysis projects
+- 🌱 Learning cloud technologies and DevOps
+- 👯 Looking to collaborate on open-source projects
+- 💬 Ask me about **React, Data Analysis, Leadership, or Book Writing**
+- ⚡ Fun fact: I published my first book at age 19!
 
-This portfolio website includes:
+## 🤝 Let's Connect!
 
-- **🎨 Modern Design** - Clean, professional interface with dark/light mode
-- **📱 Responsive Layout** - Optimized for all devices and screen sizes
-- **⚡ Performance Optimized** - Fast loading with Next.js and optimized assets
-- **🎭 Smooth Animations** - Framer Motion powered interactions
-- **🌟 Interactive Elements** - Particle background and hover effects
-- **📧 Contact Form** - Direct communication with form validation
-- **🔗 Social Integration** - Links to all professional profiles
+<p align="center">
+  <a href="https://linkedin.com/in/aviralpathak">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:aviralpathak6@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://instagram.com/aviral_pathak_">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://aviralpathak1.medium.com/">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+</p>
 
-## 🚀 Getting Started
+## 💭 Quote
 
-### Prerequisites
-- Node.js 18+ 
-- npm or yarn package manager
-
-### Installation
-
-1. **Clone the repository**
-   \`\`\`bash
-   git clone https://github.com/aviral-hub/portfolio-website.git
-   cd portfolio-website
-   \`\`\`
-
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   yarn install
-   \`\`\`
-
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   \`\`\`
-
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-### Build for Production
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
-
-## 📁 Project Structure
-
-\`\`\`
-├── app/                    # Next.js app directory
-│   ├── globals.css        # Global styles
-│   ├── layout.tsx         # Root layout component
-│   └── page.tsx           # Home page
-├── components/            # React components
-│   ├── ui/               # Reusable UI components
-│   ├── hero.tsx          # Hero section
-│   ├── about.tsx         # About section
-│   ├── projects.tsx      # Projects showcase
-│   ├── skills.tsx        # Skills section
-│   ├── experience.tsx    # Experience timeline
-│   ├── contact.tsx       # Contact form
-│   └── navbar.tsx        # Navigation component
-├── public/               # Static assets
-│   ├── book-covers/      # Book cover images
-│   └── project-images/   # Project screenshots
-└── README.md            # Project documentation
-\`\`\`
-
-## 🎨 Tech Stack
-
-- **Framework:** Next.js 14.2.25
-- **Language:** TypeScript 5.7.3
-- **Styling:** Tailwind CSS 3.4.17
-- **UI Components:** Radix UI
-- **Animations:** Framer Motion
-- **Icons:** Lucide React
-- **Deployment:** Vercel
-
-## 📞 Contact Information
-
-- **📧 Email:** [aviralpathak6@gmail.com](mailto:aviralpathak6@gmail.com)
-- **📱 Phone:** +91 7020729200
-- **📍 Location:** Nagpur, Maharashtra, India
-- **💼 LinkedIn:** [linkedin.com/in/aviralpathak](https://linkedin.com/in/aviralpathak)
-- **🐙 GitHub:** [github.com/aviral-hub](https://github.com/aviral-hub)
-
-## 🤝 Connect & Collaborate
-
-I'm always open to:
-- **📚 Book discussions** and literary collaborations
-- **🎤 Speaking opportunities** at events and workshops
-- **💻 Technical projects** and open-source contributions
-- **🎓 Student mentoring** and guidance sessions
-- **🚀 Startup discussions** and entrepreneurship topics
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+> *"Empowering Lives Through Mindset, Habits & Innovation"*
 
 ---
 
-**"Empowering Lives Through Mindset, Habits & Innovation"**
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+</div>
 
-*Built with ❤️ by Aviral Pathak*
-](https://aviralweb.vercel.app/)
+<div align="center">
+  <h3>Thanks for visiting! 😊</h3>
+  <p>Feel free to reach out for collaborations, book discussions, or just a friendly chat!</p>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Footer" />
+</div>
