@@ -75,7 +75,8 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle>Contact Information</CardTitle>
                 <CardDescription>
-                  Feel free to reach out for speaking engagements, collaborations, or questions
+                  Feel free to reach out for collaborations, speaking opportunities, book discussions, or technical
+                  projects
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -85,7 +86,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">aviral@example.com</p>
+                    <p className="font-medium">aviralpathak6@gmail.com</p>
                   </div>
                 </div>
 
@@ -95,7 +96,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Phone</p>
-                    <p className="font-medium">+91 (555) 123-4567</p>
+                    <p className="font-medium">+91 7020729200</p>
                   </div>
                 </div>
 
@@ -105,7 +106,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Location</p>
-                    <p className="font-medium">Mumbai, India</p>
+                    <p className="font-medium">Nagpur, Maharashtra</p>
                   </div>
                 </div>
               </CardContent>

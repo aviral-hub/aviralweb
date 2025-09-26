@@ -4,37 +4,42 @@ import { useInView } from "react-intersection-observer"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowUpRight, BookOpen, Headphones } from "lucide-react"
+import { ArrowUpRight, BookOpen, Code, Github } from "lucide-react"
 import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Habits That Transform",
+    title: "Practical Life Skills for Students",
     description:
-      "A comprehensive guide to building positive habits that lead to lasting personal and professional growth.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Self-Help", "Habits", "Personal Growth"],
-    liveUrl: "#",
+      "A comprehensive book emphasizing the importance of developing essential life skills beyond academics to help students thrive in real-world situations.",
+    image: "/book-cover-practical-life-skills.jpg",
+    tags: ["Self-Help", "Life Skills", "Student Development"],
+    liveUrl: "https://notionpress.com/in/read/practical-life-skills-for-students",
     type: "book",
+    date: "May 2024",
   },
   {
-    title: "Mindset Matters Podcast",
+    title: "Why Can't You Pay Attention",
     description:
-      "Weekly podcast featuring conversations with thought leaders, entrepreneurs, and experts on mindset and personal development.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Podcast", "Interviews", "Mindset"],
-    liveUrl: "#",
-    type: "podcast",
+      "An exploration of attention challenges in the digital age with practical strategies to overcome mental restlessness and improve focus.",
+    image: "/book-cover-attention-focus.jpg",
+    tags: ["Psychology", "Focus", "Digital Wellness"],
+    liveUrl: "https://amzn.in/d/gXbGg7a",
+    type: "book",
+    date: "January 2022",
   },
   {
-    title: "Youth Entrepreneur's Handbook",
-    description: "A practical guide for young entrepreneurs looking to start and grow their first business.",
-    image: "/placeholder.svg?height=400&width=600",
-    tags: ["Entrepreneurship", "Business", "Youth"],
-    liveUrl: "#",
-    type: "book",
+    title: "Data Quality Analysis Tool",
+    description:
+      "A React-based tool for analyzing datasets and identifying data quality issues with intuitive interface for data upload and analysis.",
+    image: "/data-analysis-dashboard.png",
+    tags: ["React", "Data Analysis", "Web Development"],
+    liveUrl: "https://datavtool.vercel.app/",
+    githubUrl: "https://github.com/aviral-hub/datavtool",
+    type: "project",
+    date: "2025",
   },
 ]
 
@@ -84,17 +89,20 @@ export default function Projects() {
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     fill
-                    className="object-cover transition-transform duration-500 hover:scale-105"
+                    className="object-cover transition-transform duration-500 hover:scale-105 leading-7 border-border"
                   />
                 </div>
                 <CardContent className="pt-6 flex-grow">
-                  <div className="flex items-center mb-2">
-                    {project.type === "book" ? (
-                      <BookOpen className="h-4 w-4 mr-2 text-blue-600" />
-                    ) : (
-                      <Headphones className="h-4 w-4 mr-2 text-orange-500" />
-                    )}
-                    <h3 className="text-xl font-semibold">{project.title}</h3>
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="flex items-center">
+                      {project.type === "book" ? (
+                        <BookOpen className="h-4 w-4 mr-2 text-blue-600" />
+                      ) : (
+                        <Code className="h-4 w-4 mr-2 text-orange-500" />
+                      )}
+                      <h3 className="text-xl font-semibold">{project.title}</h3>
+                    </div>
+                    <span className="text-sm text-muted-foreground">{project.date}</span>
                   </div>
                   <p className="text-muted-foreground mb-4">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mt-auto">
@@ -105,11 +113,19 @@ export default function Projects() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter>
-                  <Button asChild variant="outline" size="sm" className="w-full">
+                <CardFooter className="flex justify-between">
+                  {project.githubUrl && (
+                    <Button asChild variant="ghost" size="sm">
+                      <Link href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4 mr-2" />
+                        Code
+                      </Link>
+                    </Button>
+                  )}
+                  <Button asChild variant="outline" size="sm" className={project.githubUrl ? "" : "w-full"}>
                     <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                       <ArrowUpRight className="h-4 w-4 mr-2" />
-                      {project.type === "book" ? "Learn More" : "Listen Now"}
+                      {project.type === "book" ? "Learn More" : "View Project"}
                     </Link>
                   </Button>
                 </CardFooter>
@@ -120,9 +136,9 @@ export default function Projects() {
 
         <motion.div variants={itemVariants} className="text-center mt-12">
           <Button asChild size="lg">
-            <Link href="#" target="_blank" rel="noopener noreferrer">
-              <BookOpen className="h-4 w-4 mr-2" />
-              View All Books & Resources
+            <Link href="https://github.com/aviral-hub" target="_blank" rel="noopener noreferrer">
+              <Github className="h-4 w-4 mr-2" />
+              View More on GitHub
             </Link>
           </Button>
         </motion.div>

@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Download, Linkedin, Youtube, BookOpen } from "lucide-react"
+import { ArrowRight, Download, Linkedin, BookOpen, Github } from "lucide-react"
 import Link from "next/link"
 
 export default function Hero() {
@@ -33,7 +33,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Empowering Lives Through Mindset, Habits & Innovation
+          B.Tech IT Student | Author | Marketing Lead | Public Speaker
         </motion.h2>
 
         <motion.div
@@ -43,15 +43,15 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <Button asChild size="lg" className="group">
-            <Link href="#contact">
+            <Link href="https://wa.link/badqmp">
               Contact me here
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="https://drive.google.com/file/d/10GbfdoHJRh2odyLWhvWJR1qZbO-1jZQZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4" />
-              Download Media Kit
+              Download Resume 
             </Link>
           </Button>
         </motion.div>
@@ -63,17 +63,22 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <Button asChild variant="ghost" size="icon" className="rounded-full h-12 w-12">
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <Link
+              href="https://aviralpathak1.medium.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
               <Linkedin className="h-5 w-5" />
             </Link>
           </Button>
           <Button asChild variant="ghost" size="icon" className="rounded-full h-12 w-12">
-            <Link href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-              <Youtube className="h-5 w-5" />
+            <Link href="https://github.com/aviral-hub" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <Github className="h-5 w-5" />
             </Link>
           </Button>
           <Button asChild variant="ghost" size="icon" className="rounded-full h-12 w-12">
-            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <Link href="https://instagram.com/aviral_pathak_" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <BookOpen className="h-5 w-5" />
             </Link>
           </Button>

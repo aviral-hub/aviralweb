@@ -6,36 +6,36 @@ import { Progress } from "@/components/ui/progress"
 
 const skillCategories = [
   {
-    name: "Content Creation",
+    name: "Technical Skills",
     skills: [
-      { name: "Book Writing", level: 90 },
-      { name: "Podcasting", level: 85 },
-      { name: "Public Speaking", level: 80 },
-      { name: "Content Strategy", level: 85 },
-      { name: "Storytelling", level: 90 },
-      { name: "Digital Marketing", level: 75 },
+      { name: "C++", level: 85 },
+      { name: "Java", level: 80 },
+      { name: "SQL", level: 75 },
+      { name: "HTML/CSS", level: 80 },
+      { name: "React", level: 70 },
+      { name: "Git", level: 75 },
     ],
   },
   {
-    name: "Personal Development",
+    name: "Leadership & Marketing",
     skills: [
-      { name: "Habit Formation", level: 95 },
-      { name: "Mindset Coaching", level: 90 },
-      { name: "Goal Setting", level: 85 },
-      { name: "Time Management", level: 90 },
-      { name: "Productivity Systems", level: 85 },
-      { name: "Emotional Intelligence", level: 80 },
-    ],
-  },
-  {
-    name: "Entrepreneurship",
-    skills: [
-      { name: "Business Strategy", level: 85 },
-      { name: "Brand Building", level: 80 },
-      { name: "Leadership", level: 85 },
-      { name: "Marketing", level: 75 },
+      { name: "Team Leadership", level: 90 },
+      { name: "Social Media Marketing", level: 85 },
+      { name: "Event Management", level: 85 },
+      { name: "Campaign Strategy", level: 80 },
       { name: "Community Building", level: 90 },
-      { name: "Youth Mentoring", level: 95 },
+      { name: "Project Management", level: 85 },
+    ],
+  },
+  {
+    name: "Communication & Soft Skills",
+    skills: [
+      { name: "Public Speaking", level: 90 },
+      { name: "Written Communication", level: 95 },
+      { name: "Goal-oriented Mindset", level: 90 },
+      { name: "Multitasking", level: 85 },
+      { name: "Organization", level: 85 },
+      { name: "Student Mentoring", level: 80 },
     ],
   },
 ]
@@ -74,7 +74,7 @@ export default function Skills() {
         className="container"
       >
         <motion.h2 variants={itemVariants} className="section-heading">
-          My <span className="gradient-text">Expertise</span>
+          My <span className="gradient-text">Skills</span>
         </motion.h2>
 
         <div className="grid md:grid-cols-3 gap-8">

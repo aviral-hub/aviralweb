@@ -45,10 +45,10 @@ export default function About() {
         <motion.div variants={itemVariants} className="max-w-3xl mx-auto text-center mb-12">
           <p className="text-lg text-muted-foreground">Hi, I&apos;m Aviral Pathak 👋</p>
           <p className="mt-4">
-            I started my journey as a self-help author and entrepreneur at just 15. What began as a personal search for
-            clarity and direction evolved into a mission to guide others toward purpose, productivity, and progress.
-            Today, I share practical tools, powerful mindsets, and real stories through books, podcasts, and platforms
-            that inspire.
+            Currently pursuing B.Tech in Information Technology at GH Raisoni College of Engineering, Nagpur. I'm a
+            published author with two books, a marketing leader, and passionate about helping students develop essential
+            life skills. I combine technical knowledge with leadership experience to create meaningful impact in
+            academic and professional communities.
           </p>
         </motion.div>
 
@@ -60,10 +60,10 @@ export default function About() {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <Brain className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Mindset Rewiring</h3>
+                  <h3 className="text-xl font-semibold mb-2">Technical Development</h3>
                   <p className="text-muted-foreground">
-                    Helping individuals develop a growth mindset that empowers them to overcome challenges and achieve
-                    their goals.
+                    Building expertise in programming languages like C++, Java, and web technologies, with hands-on
+                    project experience in data analysis tools.
                   </p>
                 </div>
               </CardContent>
@@ -77,10 +77,10 @@ export default function About() {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <Lightbulb className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Productivity Without Burnout</h3>
+                  <h3 className="text-xl font-semibold mb-2">Leadership & Marketing</h3>
                   <p className="text-muted-foreground">
-                    Teaching sustainable productivity strategies that help you achieve more without sacrificing your
-                    wellbeing.
+                    Experienced in leading teams, managing social media campaigns, and organizing technical events that
+                    drive student engagement.
                   </p>
                 </div>
               </CardContent>
@@ -94,10 +94,10 @@ export default function About() {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <BookOpen className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Youth Entrepreneurship</h3>
+                  <h3 className="text-xl font-semibold mb-2">Author & Speaker</h3>
                   <p className="text-muted-foreground">
-                    Guiding young entrepreneurs with practical advice and strategies to turn their ideas into successful
-                    ventures.
+                    Published author of two books focusing on life skills and attention management, with experience in
+                    public speaking and workshops.
                   </p>
                 </div>
               </CardContent>
