@@ -59,7 +59,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="#home" className="text-lg font-bold">
-            <span className="gradient-text">LV</span>
+            <span className="gradient-text">{"Aviral pathak "}</span>
           </Link>
 
           {/* Desktop Navigation */}
