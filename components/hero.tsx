@@ -86,7 +86,7 @@ export default function Hero() {
           </Button>
 
           <Button asChild variant="ghost" size="icon" className="rounded-full h-12 w-12">
-            <Link href="https://www.instagram.com/aviralpathak/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <Link href="https://www.instagram.com/aviral_pathak_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <Instagram className="h-5 w-5" />
             </Link>
           </Button>
