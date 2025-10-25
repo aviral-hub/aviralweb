@@ -3,17 +3,27 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download, Linkedin, BookOpen, Github, Instagram } from "lucide-react";
+import { ArrowRight, Download, Linkedin, BookOpen, Github, Instagram, ChevronLeft, ChevronRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
   const [mounted, setMounted] = useState(false);
+  const [index, setIndex] = useState(0);
+
+  const posts = [
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7242195748442890241",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7239756491651293185",
+    "https://www.linkedin.com/embed/feed/update/urn:li:share:7240565282130294784",
+  ];
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   if (!mounted) return null;
+
+  const nextPost = () => setIndex((prev) => (prev + 1) % posts.length);
+  const prevPost = () => setIndex((prev) => (prev - 1 + posts.length) % posts.length);
 
   return (
     <>
@@ -108,62 +118,45 @@ export default function Hero() {
           </motion.div>
         </div>
 
-        {/* Scroll Indicator */}
         <div className="scroll-indicator" />
       </section>
 
-      {/* ---------- LINKEDIN POSTS SLIDER ---------- */}
-      <section id="linkedin-posts" className="py-20 bg-white">
+      {/* ---------- LINKEDIN POST VIEWER (Minimal & Centered) ---------- */}
+      <section id="linkedin" className="py-20 bg-white">
         <motion.h2
           className="text-3xl md:text-4xl font-semibold text-center mb-10 font-poppins"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          Recent LinkedIn Posts
+          My Recent LinkedIn Posts
         </motion.h2>
 
         <motion.div
-          className="flex gap-6 overflow-x-auto px-6 scrollbar-hide snap-x snap-mandatory"
+          className="flex items-center justify-center gap-6"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 0.8 }}
         >
-          {/* Example LinkedIn Post 1 */}
-          <div className="min-w-[350px] max-w-[400px] snap-center rounded-xl overflow-hidden shadow-lg border border-gray-100 flex-shrink-0">
+          <Button variant="ghost" size="icon" onClick={prevPost}>
+            <ChevronLeft className="h-6 w-6" />
+          </Button>
+
+          <div className="w-[350px] md:w-[500px] rounded-xl overflow-hidden shadow-lg border border-gray-100">
             <iframe
-              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7242195748442890241"
+              key={index}
+              src={posts[index]}
               height="500"
               width="100%"
               frameBorder="0"
               allowFullScreen
-              title="LinkedIn Post 1"
+              title={`LinkedIn Post ${index + 1}`}
             ></iframe>
           </div>
 
-          {/* Example LinkedIn Post 2 */}
-          <div className="min-w-[350px] max-w-[400px] snap-center rounded-xl overflow-hidden shadow-lg border border-gray-100 flex-shrink-0">
-            <iframe
-              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7239756491651293185"
-              height="500"
-              width="100%"
-              frameBorder="0"
-              allowFullScreen
-              title="LinkedIn Post 2"
-            ></iframe>
-          </div>
-
-          {/* Example LinkedIn Post 3 */}
-          <div className="min-w-[350px] max-w-[400px] snap-center rounded-xl overflow-hidden shadow-lg border border-gray-100 flex-shrink-0">
-            <iframe
-              src="https://www.linkedin.com/embed/feed/update/urn:li:share:7240565282130294784"
-              height="500"
-              width="100%"
-              frameBorder="0"
-              allowFullScreen
-              title="LinkedIn Post 3"
-            ></iframe>
-          </div>
+          <Button variant="ghost" size="icon" onClick={nextPost}>
+            <ChevronRight className="h-6 w-6" />
+          </Button>
         </motion.div>
       </section>
     </>
