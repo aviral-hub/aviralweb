@@ -49,7 +49,7 @@ export default function Hero() {
             </Link>
           </Button>
           <Button asChild variant="outline" size="lg">
-            <Link href="https://drive.google.com/file/d/1MAIlzisLvbjspovFFVuC9mCfj5q-Ga0K/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <Link href="https://drive.google.com/file/d/1NzUjRx9f_GhfGb-SDJMz72YT9tO4m-Yv/view?usp=drive_link" rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4" />
               Download Resume 
             </Link>
