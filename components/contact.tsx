@@ -86,7 +86,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-sm text-muted-foreground">Email</p>
-                    <p className="font-medium">aviralpathak6@gmail.com</p>
+                    <p className="font-medium">aviralpathakwork@gmail.com</p>
                   </div>
                 </div>
 
@@ -120,38 +120,83 @@ export default function Contact() {
                 <CardDescription>Fill out the form below and I'll get back to you as soon as possible</CardDescription>
               </CardHeader>
               <CardContent>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div className="grid gap-2">
-                    <Label htmlFor="name">Name</Label>
-                    <Input id="name" placeholder="Your name" required />
-                  </div>
+               import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { Send } from "lucide-react";
 
-                  <div className="grid gap-2">
-                    <Label htmlFor="email">Email</Label>
-                    <Input id="email" type="email" placeholder="Your email" required />
-                  </div>
+export default function ContactForm() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-                  <div className="grid gap-2">
-                    <Label htmlFor="subject">Subject</Label>
-                    <Input id="subject" placeholder="Subject" required />
-                  </div>
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-                  <div className="grid gap-2">
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea id="message" placeholder="Your message" rows={4} required />
-                  </div>
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const subject = e.target.subject.value;
+    const message = e.target.message.value;
 
-                  <Button type="submit" className="w-full" disabled={isSubmitting}>
-                    {isSubmitting ? (
-                      <>Sending...</>
-                    ) : (
-                      <>
-                        <Send className="h-4 w-4 mr-2" />
-                        Send Message
-                      </>
-                    )}
-                  </Button>
-                </form>
+    const whatsappMessage = `
+New Contact Form Message:
+
+Name: ${name}
+Email: ${email}
+Subject: ${subject}
+Message: ${message}
+    `;
+
+    const whatsappURL = `https://wa.me/917020729200?text=${encodeURIComponent(
+      whatsappMessage
+    )}`;
+
+    window.open(whatsappURL, "_blank");
+    setIsSubmitting(false);
+  };
+
+  return (
+    <form onSubmit={handleSubmit} className="space-y-4">
+      <div className="grid gap-2">
+        <Label htmlFor="name">Name</Label>
+        <Input id="name" name="name" placeholder="Your name" required />
+      </div>
+
+      <div className="grid gap-2">
+        <Label htmlFor="email">Email</Label>
+        <Input id="email" name="email" type="email" placeholder="Your email" required />
+      </div>
+
+      <div className="grid gap-2">
+        <Label htmlFor="subject">Subject</Label>
+        <Input id="subject" name="subject" placeholder="Subject" required />
+      </div>
+
+      <div className="grid gap-2">
+        <Label htmlFor="message">Message</Label>
+        <Textarea
+          id="message"
+          name="message"
+          placeholder="Your message"
+          rows={4}
+          required
+        />
+      </div>
+
+      <Button type="submit" className="w-full" disabled={isSubmitting}>
+        {isSubmitting ? (
+          "Sending..."
+        ) : (
+          <>
+            <Send className="h-4 w-4 mr-2" />
+            Send Message
+          </>
+        )}
+      </Button>
+    </form>
+  );
+}
               </CardContent>
             </Card>
           </motion.div>
