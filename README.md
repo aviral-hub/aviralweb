@@ -1,6 +1,6 @@
 # Hi there, I'm Aviral Pathak! 👋
 
-<div align="center">https://aviralweb.vercel.app/
+<div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=B.Tech+IT+Student;Published+Author;Marketing+Lead;Public+Speaker;Data+Enthusiast" alt="Typing SVG" />
 </div>
 
