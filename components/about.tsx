@@ -3,7 +3,7 @@
 import { useInView } from "react-intersection-observer"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { BookOpen, Brain, Lightbulb } from "lucide-react"
+import { Cpu, Rocket, Mic } from "lucide-react"
 
 export default function About() {
   const { ref, inView } = useInView({
@@ -45,10 +45,10 @@ export default function About() {
         <motion.div variants={itemVariants} className="max-w-3xl mx-auto text-center mb-12">
           <p className="text-lg text-muted-foreground">Hi, I&apos;m Aviral Pathak 👋</p>
           <p className="mt-4">
-            Currently pursuing B.Tech in Information Technology at GH Raisoni College of Engineering, Nagpur. I'm a
-            published author with two books, a marketing leader, and passionate about helping students develop essential
-            life skills. I combine technical knowledge with leadership experience to create meaningful impact in
-            academic and professional communities.
+            Entrepreneur, 2x published author, keynote speaker, and MBA candidate at Datta Meghe Institute of
+            Management Studies (DMIMS), Nagpur. As Founder &amp; CEO of OpenBox Organization (OPENBOX) and Unlitify, I
+            build AI-powered financial intelligence workflows, scalable web products, and student career ecosystems
+            through Unlite Education—bridging technical execution with strategic business leadership.
           </p>
         </motion.div>
 
@@ -58,12 +58,12 @@ export default function About() {
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <Brain className="h-6 w-6 text-primary" />
+                    <Cpu className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Technical Development</h3>
+                  <h3 className="text-xl font-semibold mb-2">AI Automation &amp; Product</h3>
                   <p className="text-muted-foreground">
-                    Building expertise in programming languages like C++, Java, and web technologies, with hands-on
-                    project experience in data analysis tools.
+                    Architecting business financial intelligence pipelines in n8n, full-stack web apps with React and
+                    Supabase, and award-winning automation systems.
                   </p>
                 </div>
               </CardContent>
@@ -75,12 +75,12 @@ export default function About() {
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <Lightbulb className="h-6 w-6 text-primary" />
+                    <Rocket className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Leadership & Marketing</h3>
+                  <h3 className="text-xl font-semibold mb-2">Ventures &amp; Growth Strategy</h3>
                   <p className="text-muted-foreground">
-                    Experienced in leading teams, managing social media campaigns, and organizing technical events that
-                    drive student engagement.
+                    Leading digital growth, SEO, and WhatsApp automation at Unlitify while empowering students across
+                    Nagpur with career clarity via Unlite Education.
                   </p>
                 </div>
               </CardContent>
@@ -92,12 +92,12 @@ export default function About() {
               <CardContent className="pt-6">
                 <div className="flex flex-col items-center text-center">
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                    <BookOpen className="h-6 w-6 text-primary" />
+                    <Mic className="h-6 w-6 text-primary" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2">Author & Speaker</h3>
+                  <h3 className="text-xl font-semibold mb-2">Author, Speaker &amp; Podcaster</h3>
                   <p className="text-muted-foreground">
-                    Published author of two books focusing on life skills and attention management, with experience in
-                    public speaking and workshops.
+                    Author of two books on focus and life skills, host of <em>Great Ideas Great Life</em>, and keynote
+                    speaker across 50+ events reaching 10,000+ community members.
                   </p>
                 </div>
               </CardContent>
